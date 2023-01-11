@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Quiz!</title>
+    <link rel="stylesheet" href="./assets/style.css">
+ </head>
+
+<body>
+ <div>
+    <div id="startpage">
+        <h1>Super JavaScript Quiz!</h1>
+        <p>Once you click on the start button a 60 second timer will be set.</p>
+        <p>Do your best, good luck, and have fun!</p>
+        <button id="startbtn">Start!</button>
+    </div>
+
+    <div id="quiz">
+        <div id="timer">Time left: </div>
+        <div id="questions"><p>Questions</p></div>
+           <button id="0" onclick="checkAnswer ('0')"></button>
+           <button id="1" onclick="checkAnswer ('1')"></button>
+           <button id="2" onclick="checkAnswer ('2')"></button>
+           <button id="3" onclick="checkAnswer ('3')"></button>
+        <div id="result"></div>
+    </div>
+  
+    <div id="gameover">
+        <div id="finalScore"></div>
+        <input type="text" size = "60" placeholder="Please enter your initials for Highscore" name="initials" id="initials"/>
+        <button id="submitScore">Submit Score</button>
+    </div>
+
+    <div id="highscoreContainer">
+    <div id="high-scorePage">
+        <div id="highscore-header">
+            <h2>Initials</h2>
+            <h2>Your Score</h2>
+        </div>
+        <div id="highscore-initials"></div>
+        <div id="highscore-score"></div>
+    </div>
+    <div id="endGameBtns">
+        <button id="playAgain" onclick="replayQuiz()">Play Again</button>
+        <button id="clearHighscore" onclick="clearScore()">Clear Highscores</button>
+        </div>
+   </div>
+   </div>
+   <script src="./assets/index.js"></script>
+
+</body>
+</html>
