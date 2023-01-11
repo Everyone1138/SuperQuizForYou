@@ -7,6 +7,8 @@
 
 * [Usage](#usage)
 
+* [Link](#link)
+
 * [Future](#future)
 
 * [Questions](#questions)
@@ -45,6 +47,12 @@ Once you've added your initials they will be recorded to the score board. You ar
 
 
 ![high score table](./images/Screenshot%20(16).png)
+
+---
+
+## Link 
+
+Click [HERE](https://everyone1138.github.io/SuperQuizForYou/) and have a go at the quiz!
 
 ## Future
 --- 
